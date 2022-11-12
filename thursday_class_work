@@ -1,0 +1,11 @@
+class Car():
+    def __init__(self, make, model):
+        self.make = make
+        self.model = model
+        
+def create_car(self, door, year, seats):
+    print(f'This car is a {self.year} and is a {make} {self.model} and has {door} doors and {seats} seats')
+    
+cadillac = Car('cadillac', 'escalade')
+
+cadillac.create_car(2023, 4, 6)
